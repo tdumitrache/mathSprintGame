@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Sprint Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-top">
+            <h1 class="title">Dumitrache's Math Sprint</h1>
+        </div>
+        <div class="container-middle">
+            <div class="questions">
+                <div class="question">
+                    <span>10  Questions</span>
+                    <div class="best-score-container">
+                        <span>Best Score</span>
+                        <span class="best-score"></span>
+                    </div>
+                </div>
+                <div class="question">
+                    <span>25 Questions</span>
+                    <div class="best-score-container">
+                        <span>Best Score</span>
+                        <span class="best-score"></span>
+                    </div>
+                </div>
+                <div class="question">
+                    <span>50 Questions</span>
+                    <div class="best-score-container">
+                        <span>Best Score</span>
+                        <span class="best-score"></span>
+                    </div>
+                </div>
+                <div class="question">
+                    <span>99 Questions</span>
+                    <div class="best-score-container">
+                        <span>Best Score</span>
+                        <span class="best-score"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="countdown-container" style="display:none">
+                <h1 class="countdown"></h1>
+            </div>
+            <div class="items-container">
+            </div>
+            <div class="conclusion-container">
+                <div class="your-time-container">
+                    <h1>Your Time</h1>
+                    <h1 class="your-score">6.4s</h1>
+                </div>
+                <div class="base-time-penalty-container">
+                    <h2 class="base-time">Base Time: 1.4s</h2>
+                    <h2 class="penalty">Penalty: +5.0s</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-bottom">
+            <h2 class="footer-title" id="start-button">Start Round</h2>
+            <div class="buttons" hidden>
+                <button class="btn wrong">Wrong</button>
+                <button class="btn right">Right</button>
+            </div>
+            <h2 class="footer-title play-again" hidden>Play Again</h2>
+        </div>
+    </div>
+    
+    <!-- Script -->
+    <script src="shuffle.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
