@@ -166,7 +166,6 @@ function equationsToDOM() {
         item.append(equationText);
         itemsContainer.append(item);
     });
-    equationsArr = [];
     itemsContainer.children[0].classList.add('selected');
 }
 
